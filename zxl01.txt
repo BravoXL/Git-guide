@@ -1,12 +1,15 @@
 git init
 
-git status
-git add
+git status：暂存区文件状态
+git add。把暂存区的文件由红变成绿色。
 git log
-git commit -m
+git commit -m 把文件从暂存区放到本地库
 
 git commit
 会进入一个小文件，
 输入i/a,进入编辑模式,在开头输入third，按键esc，：wq.也可以提交
 
-不经过暂存区add，直接commit,查看本地库和stage区别
+不经过暂存区add，直接commit,查看本地库和stage区别，git diff HEAD -- git zxl01.txt
+
+把add到暂存区的文件拿回来，git restore --stages zxl02.txt   git reset HEAD zxl02.txt
+
