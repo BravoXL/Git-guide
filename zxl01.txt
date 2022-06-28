@@ -1,3 +1,4 @@
+ctr + insert， shift+insert
 git init
 
 git status：暂存区文件状态
@@ -11,5 +12,13 @@ git commit
 
 不经过暂存区add，直接commit,查看本地库和stage区别，git diff HEAD -- git zxl01.txt
 
-把add到暂存区的文件拿回来，git restore --stages zxl02.txt   git reset HEAD zxl02.txt
+把add到暂存区的文件拿回来，git restore --staged zxl02.txt   git reset HEAD zxl02.txt
 
+git log --pretty=oneline
+
+git reflog
+
+
+git reset --hard 指针
+
+时光穿梭：git reflog。   git reset --hard 指针
