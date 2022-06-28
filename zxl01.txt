@@ -4,3 +4,7 @@ git status
 git add
 git log
 git commit -m
+
+git commit
+会进入一个小文件，
+输入i/a,进入编辑模式,在开头输入third，按键esc，：wq.也可以提交
