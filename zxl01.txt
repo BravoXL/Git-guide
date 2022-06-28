@@ -8,3 +8,5 @@ git commit -m
 git commit
 会进入一个小文件，
 输入i/a,进入编辑模式,在开头输入third，按键esc，：wq.也可以提交
+
+不经过暂存区add，直接commit,查看本地库和stage区别
