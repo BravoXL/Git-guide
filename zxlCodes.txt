@@ -21,4 +21,6 @@ git reflog
 
 git reset --hard 指针
 
-时光穿梭：git reflog。   git reset --hard 指针
+【时光穿梭】：git reflog。   git reset --hard 指针
+
+git ls-files
