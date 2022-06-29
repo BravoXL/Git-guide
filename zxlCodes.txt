@@ -24,3 +24,5 @@ git reset --hard 指针
 【时光穿梭】：git reflog。   git reset --hard 指针
 
 git ls-files
+
+向GitHub传文件。第一次git -github 链接后，git add .     git commit -m     git push 
