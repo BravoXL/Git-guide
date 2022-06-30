@@ -28,3 +28,4 @@ git ls-files
 向GitHub传文件。第一次git -github 链接后，git add .     git commit -m     git push 
 git branch → git checkout -b left01 →git branch
 git ls-files查找当前所有文件 git checkout master,切到主干
+切到主干后。git merge left01，把分支上的合并到主干
