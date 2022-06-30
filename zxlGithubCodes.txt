@@ -44,8 +44,9 @@ git ls-files
 从github下载到本地<<<<<<<<<<<<<<<
 git pull
 打标签<<<<<<<<<<<<<<<
-git tag v1.0,git log --pretty=oneline查看。git tag v0.9 指针。git tag 查看所有
+git tag v1.0,git log --pretty=oneline查看。git tag v0.9 指针。git tag 查看本地所有
 向github推送tag<<<<<<<<<<<<<<<
 git push origin v1.0，git push origin --tags推所有标签
 删除标签<<<<<<<<<<<<<<<
-git push origin :res
+删除远程标签git push origin :refs/tags/v1.0
+删除本地标签git tag -d v1.0
