@@ -22,7 +22,7 @@ git reflog
 git reset --hard 指针
 
 【时光穿梭】：git reflog。   git reset --hard 指针
-本地-----------
+本地<<<<<<<<<<<<<<<
 git ls-files
 向GitHub传文件。第一次git -github 链接后，git add .     git commit -m     git push 
 创建分支 git checkout -b left01 
@@ -32,12 +32,20 @@ git ls-files
 删除git branch -d left01,
 2重命名git checkout -m left01 left0
 查看分支git branch
-远程-----------
+远程<<<<<<<<<<<<<<<
 查看git branch -a 
 刷新远程分支状态git fetch,。
 把这个分支推到远程git push origin new1
 删除分支。git push origin :new1
 把远程的new2分支拉到本地作为new3分支。git checkout -b new3 origin/new2
 图像方式查看提交git log --graph --pretty=oneline
-提交----------
+提交<<<<<<<<<<<<<<<
 修改后提交到github---git add .---git commit -m ""----git push
+从github下载到本地<<<<<<<<<<<<<<<
+git pull
+打标签<<<<<<<<<<<<<<<
+git tag v1.0,git log --pretty=oneline查看。git tag v0.9 指针。git tag 查看所有
+向github推送tag<<<<<<<<<<<<<<<
+git push origin v1.0，git push origin --tags推所有标签
+删除标签<<<<<<<<<<<<<<<
+git push origin :res
