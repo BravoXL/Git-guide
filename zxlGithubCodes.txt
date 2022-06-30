@@ -33,7 +33,9 @@ git ls-files
 2重命名git checkout -m left01 left0
 查看分支git branch
 远程-----------
-git branch -a 查看
-git fetch,刷新远程分支状态。
+查看git branch -a 
+刷新远程分支状态git fetch,。
 把这个分支推到远程git push origin new1
-git push origin :new1删除分支。
+删除分支。git push origin :new1
+把远程的new2分支拉到本地作为new3分支。git checkout -b new3 origin/new2
+图像方式查看提交git log --graph --pretty=oneline
