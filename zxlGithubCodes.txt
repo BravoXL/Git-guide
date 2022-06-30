@@ -22,10 +22,16 @@ git reflog
 git reset --hard 指针
 
 【时光穿梭】：git reflog。   git reset --hard 指针
-
+本地-----------
 git ls-files
-
 向GitHub传文件。第一次git -github 链接后，git add .     git commit -m     git push 
-git branch → git checkout -b left01 →git branch
-git ls-files查找当前所有文件 git checkout master,切到主干
+创建分支 git checkout -b left01 
+查找当前所有文件 git ls-files
+切到主干git checkout master,
 切到主干后。git merge left01，把分支上的合并到主干
+删除git branch -d left01,
+2重命名git checkout -m left01 left0
+查看分支git branch
+远程-----------
+git branch -a 查看
+git fetch,刷新远程分支状态。
