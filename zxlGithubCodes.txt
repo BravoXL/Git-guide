@@ -35,3 +35,5 @@ git ls-files
 远程-----------
 git branch -a 查看
 git fetch,刷新远程分支状态。
+把这个分支推到远程git push origin new1
+git push origin :new1删除分支。
