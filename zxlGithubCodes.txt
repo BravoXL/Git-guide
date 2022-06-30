@@ -39,3 +39,5 @@ git ls-files
 删除分支。git push origin :new1
 把远程的new2分支拉到本地作为new3分支。git checkout -b new3 origin/new2
 图像方式查看提交git log --graph --pretty=oneline
+提交----------
+修改后提交到github---git add .---git commit -m ""----git push
